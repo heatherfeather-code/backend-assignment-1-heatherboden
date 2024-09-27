@@ -11,7 +11,6 @@ namespace assignment_1_heatherboden.Controllers
         /// Create an output that produces the beginning of a 
         /// knock knock joke
         /// </summary>
-
         /// <returns> a string "who's there" </returns>
         [HttpPost(template: "knockknock")]
         public string knockknock()
